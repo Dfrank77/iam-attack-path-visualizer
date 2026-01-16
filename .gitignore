@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+
+# API Keys / Secrets
+.env
+*.pem
+*.key
+config.json
+credentials.json
+
+# Output files
+output/*.json
+output/*.png
+output/*.html
+output/*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS
+.aws/
