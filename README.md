@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 The Problem
+## The Problem
 
 Organizations often have "shadow administrators" - users who can gain admin privileges through hidden paths:
 - **Indirect group memberships** (User → Group → Admin Group)
@@ -22,7 +22,7 @@ These hidden paths bypass traditional access reviews and create security blind s
 
 ---
 
-## 🔍 What This Tool Does
+## What This Tool Does
 
 Scans AWS IAM configuration and generates visual attack graphs showing:
 - ✅ All privilege escalation paths to admin access
@@ -37,7 +37,7 @@ Scans AWS IAM configuration and generates visual attack graphs showing:
 
 ---
 
-## 📊 Real Findings from Production Scan
+## Real Findings from Production Scan
 
 **From the visualization above:**
 - **25 IAM entities** analyzed (users, roles, groups)
@@ -51,7 +51,7 @@ Scans AWS IAM configuration and generates visual attack graphs showing:
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 **Built with:**
 - **Python 3.10+** - Core application logic
@@ -68,7 +68,7 @@ Scans AWS IAM configuration and generates visual attack graphs showing:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - AWS account with IAM read access
@@ -107,7 +107,7 @@ python src/aws_scanner.py
 
 ---
 
-## 📋 Sample Output Structure
+## Sample Output Structure
 ```json
 {
   "scan_date": "2026-01-16T...",
@@ -137,7 +137,7 @@ python src/aws_scanner.py
 
 ---
 
-## 💼 Business Value
+## Business Value
 
 **For Security Teams:**
 - Identify shadow admins before auditors do
@@ -157,7 +157,7 @@ python src/aws_scanner.py
 
 ---
 
-## 🎓 What This Project Demonstrates
+## What This Project Demonstrates
 
 **IAM Expertise:**
 - Deep understanding of AWS IAM privilege escalation
@@ -177,7 +177,7 @@ python src/aws_scanner.py
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Multi-account organization scanning
 - [ ] Cross-account privilege escalation detection
@@ -189,7 +189,7 @@ python src/aws_scanner.py
 
 ---
 
-## 👤 Author
+## Author
 
 **Darius Frank**  
 Information Security Specialist | IAM & Cloud Security
@@ -208,7 +208,7 @@ Information Security Specialist | IAM & Cloud Security
 
 ---
 
-## 📄 License
+## License
 
 MIT License - See [LICENSE](LICENSE) file for details
 
@@ -225,7 +225,5 @@ Built with:
 Inspired by real-world IAM security challenges and the need for automated privilege escalation detection.
 
 ---
-
-**Built with ☕ and IAM expertise**
 
 *"If you can visualize the attack path, you can defend against it."*
