@@ -192,10 +192,11 @@ python src/aws_scanner.py
 ## 👤 Author
 
 **Darius Frank**  
-Information Security Specialist | IAM Focus
+Information Security Specialist | IAM & Cloud Security
 
-- **GitHub:** [@Dfrank77](https://github.com/Dfrank77)
-- **Portfolio:** [security-learning-artifacts](https://github.com/Dfrank77/security-learning-artifacts)
+**GitHub:** [@Dfrank77](https://github.com/Dfrank77)
+**LinkedIn:** [Darius Frank](https://linkedin.com/in/darius-frank-24a895192)
+**Portfolio:** [security-learning-artifacts](https://github.com/Dfrank77/security-learning-artifacts)
 
 **Background:**
 - 2 years hands-on cybersecurity experience (IAM, SIEM, incident response)
@@ -203,20 +204,28 @@ Information Security Specialist | IAM Focus
 - Career transition from 15 years hospitality management
 - Building enterprise IAM skills across AWS, Entra ID, and Okta
 
+*IAM specialist with hands-on experience in Entra ID, AWS, and Okta. Built this tool to demonstrate automated privilege escalation detection and IAM security expertise.*
+
 ---
 
 ## 📄 License
 
-MIT License - See LICENSE file for details
+MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
-## ⚠️ Disclaimer
+## Acknowledgments
 
-This tool is for authorized security assessments only. Always obtain proper authorization before scanning AWS environments. Misuse of this tool may violate AWS Terms of Service and applicable laws.
+Built with:
+- Python 3.10+
+- boto3 (AWS SDK)
+- NetworkX (graph analysis)
+- Matplotlib (visualization)
+
+Inspired by real-world IAM security challenges and the need for automated privilege escalation detection.
 
 ---
 
-**Built with ☕ and late nights during an 11-month job search**
+**Built with ☕ and IAM expertise**
 
 *"If you can visualize the attack path, you can defend against it."*
