@@ -32,3 +32,8 @@ Thumbs.db
 
 # AWS
 .aws/
+README_copy.md
+access-analyzer-findings-report.json
+debug_scanner.py
+findings-summary.txt
+*.json
