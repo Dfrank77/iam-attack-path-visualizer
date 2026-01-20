@@ -1,0 +1,4 @@
+ACTIVE | AWS::IAM::Role | arn:aws:iam::804826263083:role/ReadOnly-Lab
+ACTIVE | AWS::IAM::Role | arn:aws:iam::804826263083:role/aws-reserved/sso.amazonaws.com/us-east-2/AWSReservedSSO_AdministratorAccess_c149a221d58556d8
+ACTIVE | AWS::IAM::Role | arn:aws:iam::804826263083:role/Admin-Access-Lab
+RESOLVED | AWS::S3::Bucket | arn:aws:s3:::darius-iam-test-1766847930

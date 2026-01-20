@@ -1,0 +1,86 @@
+{
+  "findings": [
+    {
+      "id": "5705381a-d24d-4427-ba26-e0cb64177670",
+      "principal": {
+        "Federated": "arn:aws:iam::804826263083:saml-provider/Okta-SAML"
+      },
+      "action": [
+        "sts:AssumeRoleWithSAML"
+      ],
+      "resource": "arn:aws:iam::804826263083:role/ReadOnly-Lab",
+      "isPublic": false,
+      "resourceType": "AWS::IAM::Role",
+      "condition": {},
+      "createdAt": "2025-12-27T15:09:16.463000+00:00",
+      "analyzedAt": "2025-12-27T15:09:16.463000+00:00",
+      "updatedAt": "2025-12-27T15:09:16.463000+00:00",
+      "status": "ACTIVE",
+      "resourceOwnerAccount": "804826263083",
+      "resourceControlPolicyRestriction": "NOT_APPLICABLE"
+    },
+    {
+      "id": "53be4582-3bef-4adc-97a4-b8ed68d5fccb",
+      "principal": {
+        "Federated": "arn:aws:iam::804826263083:saml-provider/AWSSSO_5f8aa9ec6d7d095c_DO_NOT_DELETE"
+      },
+      "action": [
+        "sts:AssumeRoleWithSAML",
+        "sts:TagSession"
+      ],
+      "resource": "arn:aws:iam::804826263083:role/aws-reserved/sso.amazonaws.com/us-east-2/AWSReservedSSO_AdministratorAccess_c149a221d58556d8",
+      "isPublic": false,
+      "resourceType": "AWS::IAM::Role",
+      "condition": {},
+      "createdAt": "2025-12-27T15:09:16.463000+00:00",
+      "analyzedAt": "2025-12-27T15:09:16.463000+00:00",
+      "updatedAt": "2025-12-27T15:09:16.463000+00:00",
+      "status": "ACTIVE",
+      "resourceOwnerAccount": "804826263083",
+      "resourceControlPolicyRestriction": "NOT_APPLICABLE"
+    },
+    {
+      "id": "25c88bbe-252d-4165-a902-b2f653d8f671",
+      "principal": {
+        "Federated": "arn:aws:iam::804826263083:saml-provider/Okta-SAML"
+      },
+      "action": [
+        "sts:AssumeRoleWithSAML"
+      ],
+      "resource": "arn:aws:iam::804826263083:role/Admin-Access-Lab",
+      "isPublic": false,
+      "resourceType": "AWS::IAM::Role",
+      "condition": {},
+      "createdAt": "2025-12-27T15:09:16.463000+00:00",
+      "analyzedAt": "2025-12-27T15:09:16.463000+00:00",
+      "updatedAt": "2025-12-27T15:09:16.463000+00:00",
+      "status": "ACTIVE",
+      "resourceOwnerAccount": "804826263083",
+      "resourceControlPolicyRestriction": "NOT_APPLICABLE"
+    },
+    {
+      "id": "119d93ec-7ef8-47c3-bd46-f23eeb584e50",
+      "principal": {
+        "AWS": "*"
+      },
+      "action": [
+        "s3:GetObject"
+      ],
+      "resource": "arn:aws:s3:::darius-iam-test-1766847930",
+      "isPublic": true,
+      "resourceType": "AWS::S3::Bucket",
+      "condition": {},
+      "createdAt": "2025-12-27T15:16:09.968000+00:00",
+      "analyzedAt": "2025-12-27T15:26:55.935000+00:00",
+      "updatedAt": "2025-12-27T15:26:55.935000+00:00",
+      "status": "RESOLVED",
+      "resourceOwnerAccount": "804826263083",
+      "sources": [
+        {
+          "type": "POLICY"
+        }
+      ],
+      "resourceControlPolicyRestriction": "NOT_APPLICABLE"
+    }
+  ]
+}
